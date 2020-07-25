@@ -1,0 +1,23 @@
+## Para estruturas de repetição onde eu sei o limete de repetição ##
+## Se pode usar o for e While ##
+'''Exemplo for'''
+
+## Definindo valor de c  e seu Range 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ##
+for c in range(1, 10):
+    print(c)
+print('Fim')
+
+## Exemplo com while ##
+
+c = 1
+while c < 10:
+    print(c)
+    c = c + 1
+print('Fim')
+
+## Agora vamos trabalhar com um Range indefinido ##
+
+n = 1
+while n != 0:
+    n = int(input('Digite um Valor: '))
+print('Fim')
